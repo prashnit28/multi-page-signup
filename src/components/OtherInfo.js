@@ -5,7 +5,7 @@ function OtherInfo({ formData, setFormData }) {
     <div className="other-info-container">
       <input
         type="text"
-        placeholder="Nationality..."
+        placeholder="Address"
         value={formData.nationality}
         onChange={(e) => {
           setFormData({ ...formData, nationality: e.target.value });
@@ -13,7 +13,15 @@ function OtherInfo({ formData, setFormData }) {
       />
       <input
         type="text"
-        placeholder="Other..."
+        placeholder="State"
+        value={formData.other}
+        onChange={(e) => {
+          setFormData({ ...formData, other: e.target.value });
+        }}
+      />
+       <input
+        type="text"
+        placeholder="Country"
         value={formData.other}
         onChange={(e) => {
           setFormData({ ...formData, other: e.target.value });

@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .App {
-  background: rgb(255, 0, 228);
+  background: rgba(216, 191, 216);
   background: radial-gradient(
     circle,
-    rgba(255, 0, 228, 1) 0%,
-    rgba(212, 51, 16, 1) 84%,
-    rgba(255, 0, 95, 1) 100%
+    rgba(216, 191, 216) 0%,
+    rgba(216, 191, 216) 84%,
+    rgba(216, 191, 216) 100%
   );
   width: 100vw;
   height: 100vh;
@@ -59,7 +59,7 @@ body {
   border-radius: 7px;
   width: 100px;
   height: 40px;
-  background-color: rgb(255, 0, 140);
+  background-color: rgba(210, 97, 159, 0.94);
   font-weight: bold;
   color: white;
   border: 0 none;
